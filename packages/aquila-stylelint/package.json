@@ -1,0 +1,25 @@
+{
+  "name": "aquila-stylelint",
+  "version": "1.0.0",
+  "description": "Aquila stylelint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "Aquila Learning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AquilaLearning/aquila-linting/issues"
+  },
+  "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
+  "peerDependencies": {
+    "stylelint": "14.x",
+    "stylelint-scss": "4.x",
+    "stylelint-order": "5.x",
+    "stylelint-no-unsupported-browser-features": "5.x"
+  }
+}
