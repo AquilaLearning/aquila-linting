@@ -4,7 +4,7 @@ Aquila Learning Stylelint
 ## Usage
 ### Installation
 
-`npm install aquila-stylelint --save-dev`
+`npm install @aquila-learning/aquila-stylelint --save-dev`
 
 ### Setup
 
@@ -14,7 +14,7 @@ Aquila Learning Stylelint
 
  ```json
 {
-    "extends": "aquila-stylelint"
+    "extends": "@aquila-learning/aquila-stylelint"
 }
  ```
 
