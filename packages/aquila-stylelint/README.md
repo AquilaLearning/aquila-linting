@@ -1,16 +1,18 @@
 # aquila-stylelint
+
 Aquila Learning Stylelint
 
 ## Usage
+
 ### Installation
 
 `npm install @aquila-learning/aquila-stylelint --save-dev`
 
 ### Setup
 
- - Install peer dependencies
+- Install peer dependencies
  `npm install stylelint stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
- - Add `.stylelintrc.json` file with the following contents:
+- Add `.stylelintrc.json` file with the following contents:
 
  ```json
 {
@@ -18,7 +20,7 @@ Aquila Learning Stylelint
 }
  ```
 
- - Add an npm script to run linter
+- Add an npm script to run linter
 
  ```json
      "lint:sass": "stylelint \"**/*.scss\""
