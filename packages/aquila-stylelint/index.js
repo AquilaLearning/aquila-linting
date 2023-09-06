@@ -277,6 +277,10 @@ module.exports = {
                 "last 2 chrome versions",
                 "last 2 safari versions",
                 "last 2 edge versions"
+            ],
+            "ignore": [
+                "css-nesting",
+                "css3-cursors-newer"
             ]
         }],
         "property-case": "lower",

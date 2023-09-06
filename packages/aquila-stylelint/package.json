@@ -1,6 +1,6 @@
 {
   "name": "@aquila-learning/aquila-stylelint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aquila stylelint",
   "main": "index.js",
   "repository": {
