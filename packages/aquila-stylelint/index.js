@@ -22,7 +22,6 @@ module.exports = {
         "color-hex-length": "short",
         "color-named": "never",
         "color-no-invalid-hex": true,
-
         "comment-empty-line-before": [
             "always",
             {
