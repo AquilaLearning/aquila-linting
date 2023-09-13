@@ -157,8 +157,8 @@
         "dot-notation": "error",
         "eol-last": "error",
         "eqeqeq": [
-            "always",
             "warn",
+            "always",
             {
                 "null": "ignore"
             }
@@ -265,8 +265,8 @@
         "no-use-before-define": "off",
         "no-var": "error",
         "object-curly-spacing": [
-            "always",
-            "error"
+            "error",
+            "always"
         ],
         "object-shorthand": "error",
         "one-var": [
@@ -285,20 +285,20 @@
         ],
         "prefer-const": "error",
         "quote-props": [
-            "consistent-as-needed",
-            "error"
+            "error",
+            "consistent-as-needed"
         ],
         "quotes": [
-            "double",
             "error",
+            "double",
             {
                 "avoidEscape": true
             }
         ],
         "radix": "error",
         "semi": [
-            "always",
-            "error"
+            "error",
+            "always"
         ],
         "sort-imports": "off",
         "sort-keys": "off",
@@ -312,8 +312,8 @@
             }
         ],
         "spaced-comment": [
-            "always",
-            2
+            "error",
+            "always"
         ],
         "use-isnan": "error"
     }
