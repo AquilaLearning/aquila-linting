@@ -1,0 +1,9 @@
+{
+    "parser": "vue-eslint-parser",
+    "extends": [
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+        "vue/html-indent": ["error", 4]
+    }
+}

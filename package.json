@@ -1,5 +1,8 @@
 {
     "workspaces": [
-        "packages\\aquila-styelint"
-    ]
+        "packages/**"
+    ],
+    "devDependencies": {
+        "nx": "^16.3.2"
+    }
 }

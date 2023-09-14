@@ -1,14 +1,17 @@
 {
-    "name": "@aquila-learning/aquila-stylelint",
-    "version": "1.0.2",
-    "description": "Aquila stylelint",
-    "main": "index.js",
+    "name": "@aquila-learning/eslint-config-vue",
+    "version": "1.0.0",
+    "description": "Aquila eslint",
+    "main": ".eslintrc.json",
+    "files": [
+        ".eslintrc.json"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
     },
     "keywords": [
-        "stylelint"
+        "eslint"
     ],
     "author": "Aquila Learning",
     "license": "MIT",
@@ -17,9 +20,9 @@
     },
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
-        "stylelint": "14.x",
-        "stylelint-scss": "4.x",
-        "stylelint-order": "5.x",
-        "stylelint-no-unsupported-browser-features": "5.x"
+        "eslint-plugin-vue": "9.x"
+    },
+    "devDependencies": {
+        "eslint-plugin-vue": "^9.15.1"
     }
 }
