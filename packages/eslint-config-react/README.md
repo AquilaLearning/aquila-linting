@@ -4,11 +4,11 @@ ESLint configuration for Aquila Learning projects using React.  This should inst
 
 ## Installation
 
-`npm install @aquila-learning/eslint-config @aquila-learning/eslint-config-react -D`
-
-or
-
-`yarn add @aquila-learning/eslint-config @aquila-learning/eslint-config-react -D`
+```sh
+$ npm install @aquila-learning/eslint-config @aquila-learning/eslint-config-react -D
+# or
+$ yarn add @aquila-learning/eslint-config @aquila-learning/eslint-config-react -D
+```
 
 ## Setup
 

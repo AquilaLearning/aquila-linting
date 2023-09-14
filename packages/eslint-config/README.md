@@ -4,11 +4,11 @@ ESLint configuration for Aquila Learning projects.
 
 ## Installation
 
-`npm install @aquila-learning/eslint-config -D`
-
-or
-
-`yarn add @aquila-learning/eslint-config -D`
+```sh
+$ npm install @aquila-learning/eslint-config -D
+# or
+$ yarn add @aquila-learning/eslint-config -D
+```
 
 ## Setup
 
