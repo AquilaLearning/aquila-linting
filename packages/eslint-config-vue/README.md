@@ -4,11 +4,11 @@ ESLint configuration for Aquila Learning projects using Vue.  This should instal
 
 ## Installation
 
-`npm install @aquila-learning/eslint-config @aquila-learning/eslint-config-vue -D`
-
-or
-
-`yarn add @aquila-learning/eslint-config @aquila-learning/eslint-config-vue -D`
+```sh
+$ npm install @aquila-learning/eslint-config @aquila-learning/eslint-config-vue -D
+# or
+$ yarn add @aquila-learning/eslint-config @aquila-learning/eslint-config-vue -D
+```
 
 ## Setup
 

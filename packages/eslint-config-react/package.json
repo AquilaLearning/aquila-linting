@@ -1,0 +1,32 @@
+{
+    "name": "@aquila-learning/eslint-config-react",
+    "version": "1.0.0",
+    "description": "Aquila eslint config for React",
+    "main": ".eslintrc.json",
+    "files": [
+        ".eslintrc.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
+    },
+    "keywords": [
+        "eslint",
+        "react"
+    ],
+    "author": "Aquila Learning",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AquilaLearning/aquila-linting/issues"
+    },
+    "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
+    "peerDependencies": {
+        "@babel/eslint-parser": "7.x",
+        "eslint-plugin-react": "7.x"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.22.15",
+        "babel-eslint": "^10.1.0",
+        "eslint-plugin-react": "^7.33.2"
+    }
+}
