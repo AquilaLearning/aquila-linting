@@ -115,7 +115,6 @@
         "@typescript-eslint/no-misused-new": "error",
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-object-literal-type-assertion": "off",
-        "@typescript-eslint/no-parameter-properties": "error",
         "@typescript-eslint/no-redeclare": "error",
         "@typescript-eslint/no-shadow": [
             "error"

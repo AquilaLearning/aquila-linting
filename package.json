@@ -2,6 +2,9 @@
     "workspaces": [
         "packages/**"
     ],
+    "scripts": {
+        "test": "nx run-many --target=test --all --output-style=stream"
+    },
     "devDependencies": {
         "nx": "^16.3.2"
     }

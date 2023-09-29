@@ -1,6 +1,6 @@
 {
     "name": "@aquila-learning/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Aquila eslint",
     "main": ".eslintrc.json",
     "scripts": {
@@ -23,12 +23,12 @@
     },
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "5.x",
-        "@typescript-eslint/parser": "5.x",
+        "@typescript-eslint/eslint-plugin": "6.x",
+        "@typescript-eslint/parser": "6.x",
         "eslint": "8.x",
         "eslint-plugin-import": "2.x",
         "eslint-plugin-jest": "27.x",
-        "eslint-plugin-jsdoc": "39.x",
+        "eslint-plugin-jsdoc": "46.x",
         "jest": "29.x"
     },
     "devDependencies": {
