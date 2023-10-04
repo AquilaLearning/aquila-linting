@@ -1,1 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // add test cases here
+
+// operator-linebreak
+// GOOD
+const operatorLinebreakGood = 123
+    + 456;
+
+// BAD
+// eslint-disable-next-line operator-linebreak
+const operatorLinebreakBad = 123 +
+    456;

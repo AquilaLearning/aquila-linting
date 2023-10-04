@@ -4,7 +4,7 @@
     "description": "Aquila eslint",
     "main": ".eslintrc.json",
     "scripts": {
-        "test": "eslint \"./tests/**/*.ts\""
+        "test": "eslint \"./tests/**/*.ts\" --report-unused-disable-directives"
     },
     "files": [
         ".eslintrc.json"
