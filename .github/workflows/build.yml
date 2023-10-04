@@ -1,4 +1,4 @@
-name: eslint-config test
+name: config test
 
 on:
   pull_request:
