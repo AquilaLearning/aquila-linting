@@ -6,6 +6,8 @@
 const operatorLinebreakGood = 123
     + 456;
 
+const operatorLinebreakInline = 123 + 456;
+
 // BAD
 // eslint-disable-next-line operator-linebreak
 const operatorLinebreakBad = 123 +
