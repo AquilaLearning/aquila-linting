@@ -7,7 +7,7 @@ on:
       - release/*
 
 concurrency:
-  group: eslint-${{ github.ref }}
+  group: ${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
