@@ -1,0 +1,21 @@
+name: eslint-config test
+
+on:
+  pull_request:
+    branches:
+      - main
+      - release/*
+
+concurrency:
+  group: eslint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install
+      run: npm i
+    - name: test
+      run: npm test
