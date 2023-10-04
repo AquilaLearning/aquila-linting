@@ -276,6 +276,7 @@
                 "var": "never"
             }
         ],
+        "operator-linebreak": ["error", "before"],
         "prefer-arrow-callback": [
             "error",
             {
