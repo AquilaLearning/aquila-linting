@@ -12,3 +12,7 @@ const operatorLinebreakInline = 123 + 456;
 // eslint-disable-next-line operator-linebreak
 const operatorLinebreakBad = 123 +
     456;
+
+// eslint-disable-next-line operator-linebreak
+const operatorLinebreakEqualsBeforeBad =
+    123 + 456;
