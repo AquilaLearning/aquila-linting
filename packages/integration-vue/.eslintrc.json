@@ -1,7 +1,6 @@
 {
     "extends": [
         "@aquila-learning",
-        "@aquila-learning/react",
         "@aquila-learning/vue"
     ]
 }
