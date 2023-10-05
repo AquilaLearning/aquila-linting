@@ -65,6 +65,7 @@ export default class TestComponent extends Vue {
                 </div>}
 
                 <bad-closing-bracket
+                    ref="testRef"
                     foo="bar"
                     // eslint-disable-next-line react/jsx-closing-bracket-location
                     fizz="buzz">
@@ -76,6 +77,14 @@ export default class TestComponent extends Vue {
                     // eslint-disable-next-line react/jsx-closing-bracket-location
                     fizz="buzz" />
 
+                {/* eslint-disable-next-line no-multi-spaces */}
+                {   true &&       (
+                    <bad-curly-spacing />
+                ) }
+
+                <div>
+                    {goodDeclaration}
+                </div>
             </div>
         );
     }

@@ -248,6 +248,7 @@
                 "maxEOF": 1
             }
         ],
+        "no-multi-spaces": ["error"],
         "no-new-wrappers": "error",
         "no-parameter-properties": "off",
         "no-prototype-builtins": "warn",
