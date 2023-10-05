@@ -276,7 +276,15 @@
                 "var": "never"
             }
         ],
-        "operator-linebreak": ["error", "before"],
+        "operator-linebreak": [
+            "error",
+            "before",
+            {
+                "overrides": {
+                    "=": "none"
+                }
+            }
+        ],
         "prefer-arrow-callback": [
             "error",
             {
