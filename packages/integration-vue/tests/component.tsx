@@ -37,6 +37,10 @@ export default class TestComponent extends Vue {
                 {/* eslint-disable-next-line react/jsx-max-props-per-line */}
                 <bad-comp-many-props foo="abc" bar="def" fizz="ghi" />
 
+                {/* eslint-disable-next-line react/jsx-first-prop-new-line */}
+                <bad-comp-partial-split foo="abc"
+                    bar="def" />
+
                 {true && (
                     <div>
                         good-wrapped-comp
