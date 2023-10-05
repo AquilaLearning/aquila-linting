@@ -11,8 +11,15 @@
                 "ignore": ["class"]
             }
         ],
+        "react/jsx-max-props-per-line": "error",
         "react/react-in-jsx-scope": "off",
         "react/self-closing-comp": "error",
         "vue/html-indent": ["error", 4]
+    },
+    "settings": {
+        "react": {
+            "pragma": "h",
+            "version": "detect"
+        }
     }
 }
