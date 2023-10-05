@@ -29,8 +29,19 @@ export default class TestComponent extends Vue {
                 <i class="bad non self closing i tag"></i>
 
                 <good-comp-many-props
-                    foo="abc"
                     bar="def"
+                    fizz="ghi"
+                    foo="abc"
+                    true
+                    onSomething={() => undefined}
+                />
+
+                <bad-prop-order
+                    bar="def"
+                    // eslint-disable-next-line react/jsx-sort-props
+                    onSomething={() => undefined}
+                    true
+                    foo="abc"
                     fizz="ghi"
                 />
 
@@ -39,7 +50,8 @@ export default class TestComponent extends Vue {
 
                 {/* eslint-disable-next-line react/jsx-first-prop-new-line */}
                 <bad-comp-partial-split foo="abc"
-                    bar="def" />
+                    bar="def"
+                />
 
                 {true && (
                     <div>
@@ -51,6 +63,19 @@ export default class TestComponent extends Vue {
                 {false && <div>
                     Bad wrapped component
                 </div>}
+
+                <bad-closing-bracket
+                    foo="bar"
+                    // eslint-disable-next-line react/jsx-closing-bracket-location
+                    fizz="buzz">
+                    Bad closing bracket
+                </bad-closing-bracket>
+
+                <bad-self-closing-bracket
+                    foo="bar"
+                    // eslint-disable-next-line react/jsx-closing-bracket-location
+                    fizz="buzz" />
+
             </div>
         );
     }

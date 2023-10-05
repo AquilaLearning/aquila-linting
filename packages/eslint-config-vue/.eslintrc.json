@@ -5,8 +5,18 @@
         "plugin:vue/recommended"
     ],
     "rules": {
-        "react/jsx-max-props-per-line": "error",
+        "react/jsx-closing-bracket-location": ["error", "line-aligned"],
         "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+        "react/jsx-max-props-per-line": "error",
+        "react/jsx-sort-props": [
+            "error",
+            {
+                "noSortAlphabetically": true,
+                "multiline": "last",
+                "shorthandLast": true,
+                "callbacksLast": true
+            }
+        ],
         "react/jsx-wrap-multilines": [
             "error",
             {
