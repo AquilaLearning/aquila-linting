@@ -60,8 +60,7 @@
                 "prev": "directive",
                 "next": "directive"
             }
-        ],
-        "react-hooks/exhaustive-deps": "warn"
+        ]
     },
     "overrides": [
         {
