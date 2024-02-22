@@ -3,7 +3,8 @@
         "plugin:react/recommended"
     ],
     "plugins": [
-        "react"
+        "react",
+        "react-hooks"
     ],
     "rules": {
         "react/jsx-closing-bracket-location": ["error", "line-aligned"],
@@ -58,7 +59,8 @@
                 "prev": "directive",
                 "next": "directive"
             }
-        ]
+        ],
+        "react-hooks/exhaustive-deps": "warn"
     },
     "overrides": [
         {
