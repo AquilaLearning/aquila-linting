@@ -1,12 +1,15 @@
 "use strict";
 
 module.exports = {
+    "extends": "@stylistic/stylelint-config",
     "plugins": [
         "stylelint-order",
         "stylelint-scss",
         "stylelint-no-unsupported-browser-features"
     ],
     "rules": {
+        "@stylistic/declaration-block-semicolon-newline-after": "always",
+        "@stylistic/indentation": 4,
         "at-rule-disallowed-list": ["extend"],
         "block-no-empty": true,
         "color-hex-length": "short",
