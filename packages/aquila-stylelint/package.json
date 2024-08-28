@@ -23,9 +23,7 @@
         "stylelint": "16.x",
         "stylelint-no-unsupported-browser-features": "8.x",
         "stylelint-order": "6.x",
-        "stylelint-scss": "6.x"
-    },
-    "devDependencies": {
-        "@stylistic/stylelint-config": "^2.0.0"
+        "stylelint-scss": "6.x",
+        "@stylistic/stylelint-config": "^2.x"
     }
 }
