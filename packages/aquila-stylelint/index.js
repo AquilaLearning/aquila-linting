@@ -10,6 +10,7 @@ module.exports = {
     "rules": {
         "@stylistic/declaration-block-semicolon-newline-after": "always",
         "@stylistic/indentation": 4,
+        "@stylistic/max-line-length": 160,
         "at-rule-disallowed-list": ["extend"],
         "block-no-empty": true,
         "color-hex-length": "short",

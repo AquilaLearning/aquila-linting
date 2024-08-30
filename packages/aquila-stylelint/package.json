@@ -1,6 +1,6 @@
 {
     "name": "@aquila-learning/aquila-stylelint",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Aquila stylelint",
     "main": "index.js",
     "scripts": {
@@ -20,12 +20,10 @@
     },
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
+        "@stylistic/stylelint-config": "2.x",
         "stylelint": "16.x",
         "stylelint-no-unsupported-browser-features": "8.x",
         "stylelint-order": "6.x",
         "stylelint-scss": "6.x"
-    },
-    "devDependencies": {
-        "@stylistic/stylelint-config": "^2.0.0"
     }
 }

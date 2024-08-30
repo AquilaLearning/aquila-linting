@@ -11,7 +11,7 @@ Aquila Learning Stylelint
 ### Setup
 
 - Install peer dependencies
- `npm install stylelint stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
+ `npm install stylelint stylelint-scss stylelint-order stylelint-no-unsupported-browser-features @stylistic/stylelint-config --save-dev`
 - Add `.stylelintrc.json` file with the following contents:
 
  ```json

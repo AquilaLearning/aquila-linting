@@ -110,3 +110,16 @@
     /* stylelint-enable @stylistic/value-list-max-empty-lines */
 }
 /* stylelint-enable @stylistic/max-empty-lines */
+
+/* GOOD max-line-length */
+
+.this-is-an-example-of-a-really-long-css-class-name-that-just-keeps-going-on-and-on {
+    display: block;
+}
+
+/* BAD max-line-length */
+
+/* stylelint-disable-next-line @stylistic/max-line-length */
+.this-is-an-example-of-a-really-long-css-class-name-that-just-keeps-going-on-and-on-without-any-apparent-end-in-sight-but-it-should-only-be-used-for-demonstration-purposes {
+    display: block;
+}
