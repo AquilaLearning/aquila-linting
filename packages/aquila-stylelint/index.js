@@ -244,7 +244,9 @@ module.exports = {
             ],
             "ignore": [
                 "css-nesting",
-                "css3-cursors-newer"
+                "css3-cursors-newer",
+                "css3-cursors",
+                "css3-cursors-grab"
             ]
         }],
         "property-no-vendor-prefix": true,
