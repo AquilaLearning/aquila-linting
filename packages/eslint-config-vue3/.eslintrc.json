@@ -6,7 +6,7 @@
         "plugin:testing-library/vue"
     ],
     "plugins": [
-        "test-library"
+        "testing-library"
     ],
     "rules": {
         "vue/html-indent": ["error", 4],
