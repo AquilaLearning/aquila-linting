@@ -1,8 +1,11 @@
 {
     "name": "@aquila-learning/aquila-stylelint",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "Aquila stylelint",
     "main": "index.js",
+    "scripts": {
+        "test": "stylelint \"./tests/**/*.css\" --config=\"./index.js\" --report-needless-disables"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
@@ -17,9 +20,10 @@
     },
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
-        "stylelint": "14.x",
-        "stylelint-scss": "4.x",
-        "stylelint-order": "5.x",
-        "stylelint-no-unsupported-browser-features": "5.x"
+        "@stylistic/stylelint-config": "2.x",
+        "stylelint": "16.x",
+        "stylelint-no-unsupported-browser-features": "8.x",
+        "stylelint-order": "6.x",
+        "stylelint-scss": "6.x"
     }
 }

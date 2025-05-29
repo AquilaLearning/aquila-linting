@@ -6,3 +6,4 @@ Monorepo for all things linting at Aquila Learning.  Contains the following pack
 - [@aquila-learning/eslint-config](packages/eslint-config)
 - [@aquila-learning/eslint-config-react](packages/eslint-config-react)
 - [@aquila-learning/eslint-config-vue](packages/eslint-config-vue)
+- [@aquila-learning/eslint-config-vue3](packages/eslint-config-vue3)

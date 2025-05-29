@@ -1,0 +1,33 @@
+{
+    "parser": "vue-eslint-parser",
+    "extends": [
+        "plugin:vue/recommended",
+        "plugin:testing-library/dom",
+        "plugin:testing-library/vue"
+    ],
+    "plugins": [
+        "testing-library"
+    ],
+    "rules": {
+        "vue/html-indent": ["error", 4],
+        "vue/enforce-style-attribute": [
+            "error",
+            {
+                "allow": [
+                    "module"
+                ]
+            }
+        ],
+        "vue/max-lines-per-block": [
+            "error",
+            {
+                "script": 100,
+                "template": 100,
+                "style": 100,
+                "skipBlankLines": true
+            }
+        ],
+        "vue/no-multiple-template-root": "off",
+        "vue/no-v-model-argument": "off"
+    }
+}

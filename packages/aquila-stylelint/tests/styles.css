@@ -1,0 +1,125 @@
+/* GOOD at-rule-name-case */
+
+@media screen and (max-width: 1rem) {
+    div {
+        display: flex;
+    }
+}
+
+/* BAD at-rule-name-case */
+
+/* stylelint-disable-next-line @stylistic/at-rule-name-case */
+@MEDIA screen and (max-width: 1rem) {
+    div {
+        display: flex;
+    }
+}
+
+.color-hex-case-good {
+    color: #abc;
+}
+
+.color-hex-case-bad {
+    /* stylelint-disable-next-line @stylistic/color-hex-case */
+    color: #ABC;
+    /* stylelint-disable-next-line @stylistic/color-hex-case */
+    background: #AbC;
+}
+
+/* GOOD declaration-bang-space-after */
+
+.block-no-empty-line-before {
+    color: #fff !important;
+}
+
+/* BAD declaration-bang-space-after */
+
+.block-empty-line-before {
+    /* stylelint-disable-next-line @stylistic/declaration-bang-space-after */
+    color: #000 ! important;
+}
+
+/* GOOD declaration-colon-newline-after */
+
+.declaration-colon-good {
+    background: linear-gradient(45deg, #fff, #000);
+}
+
+/* BAD declaration-colon-newline-after */
+
+.declaration-colon-bad {
+    /* stylelint-disable-next-line @stylistic/declaration-colon-newline-after */
+    background: linear-gradient(
+        45deg,
+        #fff,
+        #000
+    );
+}
+
+/* GOOD media-feature-colon-space-after */
+
+@media screen and (max-width: 1rem) {
+    div {
+        display: flex;
+    }
+}
+
+/* BAD media-feature-colon-space-after */
+
+/* stylelint-disable-next-line @stylistic/media-feature-colon-space-after */
+@media screen and (max-width:1rem) {
+    div {
+        display: flex;
+    }
+}
+
+/* GOOD selector-attribute-brackets-space-inside */
+
+.selector-good[type="text"] {
+    color: #fff;
+}
+
+/* BAD selector-attribute-brackets-space-inside */
+
+/* stylelint-disable-next-line @stylistic/selector-attribute-brackets-space-inside */
+.selector-bad[ type="text" ] {
+    color: #000;
+}
+
+/* GOOD max-empty-lines */
+
+.max-empty-lines-good {
+    box-shadow: 10px 5px 5px #000, 20px 10px 10px #333;
+}
+
+/* BAD
+    max-empty-lines
+    value-list-max-empty-lines
+    declaration-colon-newline-after
+*/
+
+/* stylelint-disable @stylistic/max-empty-lines */
+.max-empty-lines-bad {
+    /* stylelint-disable @stylistic/declaration-colon-newline-after */
+    /* stylelint-disable @stylistic/value-list-max-empty-lines */
+    box-shadow: 10px 5px 5px #000,
+
+
+        20px 10px 10px #333;
+    /* stylelint-enable @stylistic/declaration-colon-newline-after */
+    /* stylelint-enable @stylistic/value-list-max-empty-lines */
+}
+/* stylelint-enable @stylistic/max-empty-lines */
+
+/* GOOD max-line-length */
+
+.this-is-an-example-of-a-really-long-css-class-name-that-just-keeps-going-on-and-on {
+    display: block;
+}
+
+/* BAD max-line-length */
+
+/* stylelint-disable-next-line @stylistic/max-line-length */
+.this-is-an-example-of-a-really-long-css-class-name-that-just-keeps-going-on-and-on-without-any-apparent-end-in-sight-but-it-should-only-be-used-for-demonstration-purposes {
+    display: block;
+}
