@@ -6,6 +6,6 @@
         "test": "nx run-many --target=test --all --output-style=stream"
     },
     "devDependencies": {
-        "nx": "^16.10.0"
+        "nx": "^21.3.11"
     }
 }
