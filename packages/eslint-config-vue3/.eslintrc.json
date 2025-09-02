@@ -21,7 +21,7 @@
         "vue/max-lines-per-block": [
             "error",
             {
-                "script": 100,
+                "script": 120,
                 "template": 100,
                 "style": 100,
                 "skipBlankLines": true
