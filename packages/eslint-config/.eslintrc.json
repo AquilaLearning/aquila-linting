@@ -48,8 +48,7 @@
         "@typescript-eslint/consistent-type-assertions": [
             "error",
             {
-                "assertionStyle": "as",
-                "objectLiteralTypeAssertions": "never"
+                "assertionStyle": "as"
             }
         ],
         "@typescript-eslint/consistent-type-imports": [
