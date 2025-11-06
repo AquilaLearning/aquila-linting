@@ -1,4 +1,5 @@
 {
+    "$schema": "../../node_modules/oxlint/configuration_schema.json",
     "extends": [
         "plugin:react/recommended"
     ],
@@ -6,8 +7,14 @@
         "react"
     ],
     "rules": {
-        "react/jsx-closing-bracket-location": ["error", "line-aligned"],
-        "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+        "react/jsx-closing-bracket-location": [
+            "error",
+            "line-aligned"
+        ],
+        "react/jsx-first-prop-new-line": [
+            "error",
+            "multiline-multiprop"
+        ],
         "react/jsx-max-props-per-line": "error",
         "react/jsx-sort-props": [
             "error",
@@ -40,13 +47,25 @@
             "error",
             {
                 "blankLine": "always",
-                "prev": ["const", "let", "var"],
+                "prev": [
+                    "const",
+                    "let",
+                    "var"
+                ],
                 "next": "*"
             },
             {
                 "blankLine": "always",
-                "prev": ["const", "let", "var"],
-                "next": ["const", "let", "var"]
+                "prev": [
+                    "const",
+                    "let",
+                    "var"
+                ],
+                "next": [
+                    "const",
+                    "let",
+                    "var"
+                ]
             },
             {
                 "blankLine": "always",
@@ -62,7 +81,10 @@
     },
     "overrides": [
         {
-            "files": [".ts",".tsx"],
+            "files": [
+                ".ts",
+                ".tsx"
+            ],
             "parser": "@babel/eslint-parser",
             "parserOptions": {
                 "ecmaVersion": 10,
