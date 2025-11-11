@@ -2,8 +2,9 @@
     "name": "@aquila-learning/eslint-config-react",
     "version": "1.1.0",
     "description": "Aquila eslint config for React",
-    "main": ".oxlintrc.json",
+    "main": "eslint.config.ts",
     "files": [
+        "eslint.config.ts",
         ".oxlintrc.json"
     ],
     "repository": {

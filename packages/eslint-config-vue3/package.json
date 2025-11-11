@@ -4,7 +4,8 @@
     "description": "Aquila eslint",
     "main": "eslint.config.ts",
     "files": [
-        "eslint.config.ts"
+        "eslint.config.ts",
+        ".oxlintrc.json"
     ],
     "repository": {
         "type": "git",
