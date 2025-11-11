@@ -22,10 +22,12 @@
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
         "@babel/eslint-parser": "7.x",
-        "eslint-plugin-react": "7.x"
+        "eslint-plugin-react": "7.x",
+        "@stylistic/eslint-plugin": "5.x"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.22.15",
+        "@stylistic/eslint-plugin": "^5.5.0",
         "babel-eslint": "^10.1.0",
         "eslint-plugin-react": "^7.37.5"
     }

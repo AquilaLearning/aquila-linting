@@ -1,4 +1,4 @@
-/* oxlint-disable no-unused-vars */
+// oxlint-disable no-unused-vars
 // add test cases here
 
 // operator-linebreak

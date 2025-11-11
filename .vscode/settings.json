@@ -9,4 +9,8 @@
             "mode": "auto"
         }
     ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.oxc": "explicit",
+        "source.fixAll.eslint": "explicit"
+    }
 }

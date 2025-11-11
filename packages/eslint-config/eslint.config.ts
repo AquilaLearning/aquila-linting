@@ -1,20 +1,23 @@
 import stylistic from "@stylistic/eslint-plugin";
 import globals from "globals";
-import tseslint from "@typescript-eslint/eslint-plugin";
-import oxlint from "eslint-plugin-oxlint";
-import vueParser from "vue-eslint-parser";
-import importPlugin from "eslint-plugin-import";
+import * as tseslint from "@typescript-eslint/eslint-plugin";
+import * as vueParser from "vue-eslint-parser";
+import * as importPlugin from "eslint-plugin-import";
 import jsdocPlugin from "eslint-plugin-jsdoc";
+import testingLibraryPlugin from "eslint-plugin-testing-library";
+import { globalIgnores } from "eslint/config";
 
 export default [
-    importPlugin.flatConfigs.recommended,
-    importPlugin.flatConfigs.typescript,
+    testingLibraryPlugin.configs["flat/vue"],
+    testingLibraryPlugin.configs["flat/dom"],
     {
         files: ["**/*.{ts,tsx,vue}"],
         plugins: {
             "@stylistic": stylistic,
             "@typescript-eslint": tseslint,
-            "jsdoc": jsdocPlugin
+            "jsdoc": jsdocPlugin,
+            "import": importPlugin,
+            "testing-library": testingLibraryPlugin
         },
         languageOptions: {
             parser: vueParser,
@@ -25,13 +28,11 @@ export default [
                 }
             },
             globals: {
-                ...globals.browser,
                 ...globals.node,
                 ...globals.jest
-            }
+            },
         },
         rules: {
-            // Import
             "import/named": "off",
             "import/no-unresolved": "off",
             "import/order": [
@@ -122,6 +123,8 @@ export default [
                 }
             ],
 
+            // Testing Library
+            "testing-library/no-await-sync-events": 0, // We use async fire-event methods
             // Typescript
             "@typescript-eslint/no-explicit-any": "off",
             "@typescript-eslint/consistent-type-assertions": "error",
@@ -230,9 +233,8 @@ export default [
             "spaced-comment": [
                 "error",
                 "always"
-            ],
-
+            ]
         }
     },
-    ...oxlint.buildFromOxlintConfigFile("./.oxlintrc.json"),
+    globalIgnores(["**/dtos.ts"])
 ];

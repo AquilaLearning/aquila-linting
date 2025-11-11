@@ -1,21 +1,27 @@
-import vuePlugin from 'eslint-plugin-vue';
-import testingLibraryPlugin from 'eslint-plugin-testing-library';
+import * as vuePlugin from "eslint-plugin-vue";
 import * as vueParser from "vue-eslint-parser";
 
 export default [
     ...vuePlugin.configs["flat/recommended"],
-    ...testingLibraryPlugin.configs["flat/dom"],
-    ...testingLibraryPlugin.configs["flat/vue"],
     {
         languageOptions: {
-            parser: vueParser
+            parser: vueParser,
+            parserOptions: {
+                parser: "@typescript-eslint/parser"
+            },
         },
-        "rules": {
-            "vue/html-indent": ["error", 4],
+        plugins: {
+            vue: vuePlugin
+        },
+        rules: {
+            "vue/html-indent": [
+                "error",
+                4
+            ],
             "vue/enforce-style-attribute": [
                 "error",
                 {
-                    "allow": [
+                    allow: [
                         "module"
                     ]
                 }
@@ -23,14 +29,17 @@ export default [
             "vue/max-lines-per-block": [
                 "error",
                 {
-                    "script": 120,
-                    "template": 100,
-                    "style": 100,
-                    "skipBlankLines": true
+                    script: 120,
+                    template: 100,
+                    style: 100,
+                    skipBlankLines: true
                 }
             ],
             "vue/no-multiple-template-root": "off",
-            "vue/no-v-model-argument": "off"
-        }
+            "vue/no-v-model-argument": "off",
+        },
+        ignores: [
+            "dist/**"
+        ]
     }
 ];
