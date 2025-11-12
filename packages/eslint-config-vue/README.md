@@ -12,13 +12,16 @@ $ yarn add @aquila-learning/eslint-config @aquila-learning/eslint-config-vue -D
 
 ## Setup
 
-Add `.eslintrc.json file with the following contents
+Add `eslint.config.ts` file with the following contents
 
-```json
-{
-    "extends": [
-        "@aquila-learning",
-        "@aquila-learning/vue"
-    ]
-}
+```ts
+import aquilaLearningConfig from "@aquila-learning/eslint-config";
+import aquilaLearningVueConfig from "@aquila-learning/eslint-config-vue";
+
+export default [
+    {
+        ...aquilaLearningConfig,
+        ...aquilaLearningVueConfig
+    }
+]
 ```
