@@ -6,7 +6,8 @@
     },
     "dependencies": {
         "@aquila-learning/eslint-config": "*",
-        "@aquila-learning/eslint-config-vue": "*"
+        "@aquila-learning/eslint-config-vue": "*",
+        "@aquila-learning/oxlint-config": "*"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^8.46.3",

@@ -1,7 +1,6 @@
 {
     // https://github.com/oxc-project/oxc/pull/14629
     "extends": [
-        "../../node_modules/@aquila-learning/eslint-config/.oxlintrc.json",
-        "../../node_modules/@aquila-learning/eslint-config-vue/.oxlintrc.json"
+        "../../node_modules/@aquila-learning/oxlint-config/.oxlintrc.json"
     ]
 }
