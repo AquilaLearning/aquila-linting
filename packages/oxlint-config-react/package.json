@@ -1,17 +1,17 @@
 {
-    "name": "@aquila-learning/eslint-config-react",
-    "version": "1.1.0",
-    "description": "Aquila eslint config for React",
-    "main": "eslint.config.ts",
+    "name": "@aquila-learning/oxlint-config-react",
+    "version": "1.0.0",
+    "description": "Aquila oxlint config for React",
+    "main": ".oxlintrc.json",
     "files": [
-        "eslint.config.ts"
+        ".oxlintrc.json"
     ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
     },
     "keywords": [
-        "eslint",
+        "oxlint",
         "react"
     ],
     "author": "Aquila Learning",
@@ -22,12 +22,10 @@
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
         "@babel/eslint-parser": "7.x",
-        "eslint-plugin-react": "7.x",
-        "@stylistic/eslint-plugin": "5.x"
+        "eslint-plugin-react": "7.x"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.22.15",
-        "@stylistic/eslint-plugin": "^5.5.0",
         "babel-eslint": "^10.1.0",
         "eslint-plugin-react": "^7.37.5"
     }
