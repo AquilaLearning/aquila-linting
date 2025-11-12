@@ -12,11 +12,10 @@ export default class TestComponent extends Vue {
 
         const goodSingleLineDeclaration = <div />;
 
-        const badDeclaration = (
-            <div>
-                Hello world
-            </div>
-        );
+        // eslint-disable-next-line react/jsx-wrap-multilines
+        const badDeclaration = <div>
+            Hello world
+        </div>;
 
         // eslint-disable-next-line react/jsx-wrap-multilines
         const badDeclarationParens = (<div>
