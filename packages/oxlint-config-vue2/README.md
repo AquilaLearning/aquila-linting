@@ -1,4 +1,4 @@
-# @aquila-learning/oxlint-config-vue
+# @aquila-learning/oxlint-config-vue2
 
 Oxlint configuration for Aquila Learning projects using Vue 2. This should installed and used with `@aquila-learning/oxlint-config`.
 
