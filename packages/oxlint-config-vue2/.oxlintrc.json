@@ -1,0 +1,27 @@
+{
+    "parser": "vue-eslint-parser",
+    "plugins": [
+        "react",
+        "vue",
+        "jest"
+    ],
+    "rules": {
+        // Jest
+        "jest/expect-expect": "error",
+        // Vue 2 rules
+        "react/no-string-refs": "off",
+        "react/no-unknown-property": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/self-closing-comp": "error",
+        "vue/html-indent": [
+            "error",
+            4
+        ]
+    },
+    "settings": {
+        "react": {
+            "pragma": "h",
+            "version": "detect"
+        }
+    }
+}

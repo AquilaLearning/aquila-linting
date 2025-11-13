@@ -1,6 +1,0 @@
-{
-    "extends": [
-        "@aquila-learning",
-        "@aquila-learning/vue"
-    ]
-}

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* oxlint-disable no-unused-vars */
 import { Vue } from "vue-property-decorator";
 import type { VNode } from "vue";
 
@@ -14,7 +14,7 @@ export default class TestComponent extends Vue {
 
         // eslint-disable-next-line react/jsx-wrap-multilines
         const badDeclaration = <div>
-                Hello world
+            Hello world
         </div>;
 
         // eslint-disable-next-line react/jsx-wrap-multilines

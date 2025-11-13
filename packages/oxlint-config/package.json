@@ -1,0 +1,40 @@
+{
+    "name": "@aquila-learning/oxlint-config",
+    "version": "1.0.0",
+    "description": "Aquila oxlint",
+    "main": ".oxlintrc.json",
+    "scripts": {
+        "test": "oxlint"
+    },
+    "files": [
+        ".oxlintrc.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AquilaLearning/aquila-linting.git"
+    },
+    "keywords": [
+        "oxlint"
+    ],
+    "author": "Aquila Learning",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AquilaLearning/aquila-linting/issues"
+    },
+    "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
+    "peerDependencies": {
+        "eslint": "9.x",
+        "eslint-plugin-import": "2.x",
+        "eslint-plugin-jsdoc": "61.x",
+        "eslint-plugin-oxlint": "1.x",
+        "oxlint": "1.x"
+    },
+    "devDependencies": {
+        "eslint": "^9.39.1",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-jsdoc": "^61.1.12",
+        "eslint-plugin-oxlint": "^1.25.0",
+        "oxlint": "^1.26.0",
+        "typescript": "^5.2.2"
+    }
+}

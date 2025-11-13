@@ -1,15 +1,15 @@
 {
-    "parser": "vue-eslint-parser",
-    "extends": [
-        "plugin:vue/recommended",
-        "plugin:testing-library/dom",
-        "plugin:testing-library/vue"
-    ],
     "plugins": [
-        "testing-library"
+        "vue"
+    ],
+    "extends": [
+        "plugin:vue/recommended"
     ],
     "rules": {
-        "vue/html-indent": ["error", 4],
+        "vue/html-indent": [
+            "error",
+            4
+        ],
         "vue/enforce-style-attribute": [
             "error",
             {

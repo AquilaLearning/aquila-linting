@@ -12,12 +12,14 @@ $ yarn add @aquila-learning/eslint-config -D
 
 ## Setup
 
-Add `.eslintrc.json file with the following contents
+Add `eslint.config.ts` file with the following contents
 
-```json
-{
-    "extends": [
-        "@aquila-learning"
-    ]
-}
+```ts
+import aquilaLearningConfig from "@aquila-learning/eslint-config";
+
+export default [
+    {
+        ...aquilaLearningConfig
+    }
+]
 ```

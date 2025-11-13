@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+// oxlint-disable no-unused-vars
 // add test cases here
 
 // operator-linebreak

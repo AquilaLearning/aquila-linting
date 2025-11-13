@@ -1,10 +1,11 @@
 {
     "name": "@aquila-learning/eslint-config-vue3",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "Aquila eslint",
-    "main": ".eslintrc.json",
+    "main": "eslint.config.ts",
     "files": [
-        ".eslintrc.json"
+        "eslint.config.ts",
+        ".oxlintrc.json"
     ],
     "repository": {
         "type": "git",
@@ -20,18 +21,20 @@
     },
     "homepage": "https://github.com/AquilaLearning/aquila-linting#readme",
     "peerDependencies": {
-        "eslint-plugin-vue": "9.x",
-        "eslint-plugin-testing-library": "6.x",
         "@testing-library/jest-dom": "6.x",
         "@testing-library/vue": "8.x",
-        "vue": "3.x"
+        "eslint-plugin-testing-library": "6.x",
+        "eslint-plugin-vue": "10.x",
+        "vue": "3.x",
+        "vue-eslint-parser": "10.x"
     },
     "devDependencies": {
         "@testing-library/jest-dom": "^6.4.6",
         "@testing-library/vue": "^8.1.0",
-        "eslint-plugin-vue": "^9.15.1",
         "eslint-plugin-testing-library": "^6.0.2",
+        "eslint-plugin-vue": "^10.5.1",
         "vue": "^3.5.13",
+        "vue-eslint-parser": "^10.2.0",
         "vue-property-decorator": "^9.1.2"
     }
 }
