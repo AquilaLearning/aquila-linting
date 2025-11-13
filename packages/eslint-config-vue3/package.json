@@ -1,6 +1,6 @@
 {
     "name": "@aquila-learning/eslint-config-vue3",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Aquila eslint",
     "main": "eslint.config.ts",
     "files": [
