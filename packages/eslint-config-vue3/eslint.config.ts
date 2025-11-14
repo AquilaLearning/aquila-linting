@@ -10,9 +10,6 @@ export default [
                 parser: "@typescript-eslint/parser"
             },
         },
-        plugins: {
-            vue: vuePlugin
-        },
         rules: {
             "vue/html-indent": [
                 "error",
