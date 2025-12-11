@@ -29,7 +29,7 @@
         "vue-eslint-parser": "10.x"
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^6.4.6",
+        "@testing-library/jest-dom": "^6.9.1",
         "@testing-library/vue": "^8.1.0",
         "eslint-plugin-testing-library": "^6.0.2",
         "eslint-plugin-vue": "^10.5.1",
