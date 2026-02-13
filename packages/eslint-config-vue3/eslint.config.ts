@@ -27,7 +27,7 @@ export default [
                 "error",
                 {
                     script: 120,
-                    template: 100,
+                    template: 120,
                     style: 100,
                     skipBlankLines: true
                 }
