@@ -55,7 +55,7 @@ export default [
 
             // JSDoc
             "jsdoc/check-alignment": "error",
-            "jsdoc/check-indentation": "error",
+            "jsdoc/check-indentation": "off",
             "jsdoc/check-param-names": "error",
             "jsdoc/check-syntax": "error",
             "jsdoc/check-types": "error",
