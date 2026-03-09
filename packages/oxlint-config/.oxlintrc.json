@@ -98,6 +98,10 @@
             "error",
             1
         ],
+        "max-lines": [
+            "error",
+            500
+        ],
         "for-direction": "error",
         "no-async-promise-executor": "error",
         "no-bitwise": "off",

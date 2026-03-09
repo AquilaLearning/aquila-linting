@@ -173,10 +173,6 @@ export default [
                     before: true
                 }
             ],
-            "max-lines": [
-                "error",
-                500
-            ],
             "new-parens": "error",
             "no-constant-binary-expression": "off",
             "no-case-declarations": "off",
