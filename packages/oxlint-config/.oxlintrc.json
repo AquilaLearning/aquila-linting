@@ -174,11 +174,5 @@
                 "max-lines": ["off"]
             }
         },
-        {
-            "files": ["*.test.ts"],
-            "rules": {
-                "max-lines-per-function": ["warn", { "max": 50, "skipBlankLines": true }]
-            }
-        }
     ]
 }
