@@ -11,6 +11,9 @@ export default [
             },
         },
         rules: {
+            'vue/block-order': [
+                'error', { order: ['script', 'template', 'style'] }
+            ],
             "vue/html-indent": [
                 "error",
                 4
