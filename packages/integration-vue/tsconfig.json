@@ -29,7 +29,8 @@
         }
       ],
       "jsx": "preserve",
-      "jsxFactory": "h"
+      "jsxFactory": "h",
+      "jsxImportSource": "vue"
     },
     "include": [
       "tests/**/*.ts",
