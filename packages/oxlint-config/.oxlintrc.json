@@ -86,6 +86,10 @@
             "error",
             1
         ],
+        "max-lines": [
+            "error",
+            500
+        ],
         "for-direction": "error",
         "no-async-promise-executor": "error",
         "no-bitwise": "off",
@@ -150,5 +154,13 @@
         "sort-imports": "off",
         "sort-keys": "off",
         "no-unused-expressions": "error"
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.test.ts", "*.stories.ts"],
+            "rules": {
+                "max-lines": ["off"]
+            }
+        },
+    ]
 }
