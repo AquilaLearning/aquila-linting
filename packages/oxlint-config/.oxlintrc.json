@@ -18,19 +18,7 @@
     "rules": {
         // Typescript
         "typescript/ban-ts-comment": "error",
-        "typescript/ban-types": [
-            "error",
-            {
-                "types": {
-                    "Boolean": "Avoid using the `Boolean` type. Did you mean `boolean`?",
-                    "Function": "Avoid using the `Function` type. Prefer a specific function type, like `() => void`.",
-                    "Number": "Avoid using the `Number` type. Did you mean `number`?",
-                    "Object": "Avoid using the `Object` type. Did you mean `object`?",
-                    "String": "Avoid using the `String` type. Did you mean `string`?",
-                    "Symbol": "Avoid using the `Symbol` type. Did you mean `symbol`?"
-                }
-            }
-        ],
+        "typescript/no-wrapper-object-types": "error",
         "no-array-constructor": "error",
         "typescript/no-duplicate-enum-values": "error",
         "typescript/no-explicit-any": "off",
@@ -98,6 +86,10 @@
             "error",
             1
         ],
+        "max-lines": [
+            "error",
+            500
+        ],
         "for-direction": "error",
         "no-async-promise-executor": "error",
         "no-bitwise": "off",
@@ -162,5 +154,13 @@
         "sort-imports": "off",
         "sort-keys": "off",
         "no-unused-expressions": "error"
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.test.ts", "*.stories.ts"],
+            "rules": {
+                "max-lines": ["off"]
+            }
+        },
+    ]
 }
