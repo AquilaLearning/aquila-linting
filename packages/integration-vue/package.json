@@ -11,7 +11,7 @@
         "@aquila-learning/oxlint-config-vue2": "*"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^8.46.3",
+        "@typescript-eslint/eslint-plugin": "^8.55.0",
         "@typescript-eslint/parser": "^8.46.3",
         "eslint": "^9.39.1",
         "eslint-plugin-import": "^2.32.0",
